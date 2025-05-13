@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@exortek/express-mongo-sanitize": "1.0.0",
     "@maptiler/client": "^1.8.1",
     "cloudinary": "^1.41.3",
     "connect-flash": "^0.1.1",
