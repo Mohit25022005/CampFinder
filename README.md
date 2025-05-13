@@ -1,45 +1,62 @@
-﻿# CampFinder
+ 
+=======
+# YelpCamp
+YelpCamp is a full-stack website project where users can create and review campgrounds.
+In order to review or create a campground, you must have an account. This project is a part of Colt Steele's web dev bootcamp course on udemy.
 
-**CampFinder** is a full-stack web application built for camping enthusiasts to create, discover, and review campgrounds. Share your favorite outdoor spots, explore reviews from fellow campers, and plan your next adventure effortlessly.
+This project is being created created using Node.js, Express, MongoDB, and Bootstrap. Passport.js is used to handle authentication.
 
-## Features
-- **Campground Creation**: Add new campgrounds with details like name, location, and photos.
-- **Review System**: Rate and leave comments on campgrounds you’ve experienced.
-- **Responsive Design**: Enjoy a seamless, user-friendly interface across all devices.
 
-## Tech Stack
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Development Tools**: Nodemon for live reloading
+## Functionalities
 
-## Getting Started
+>Everyone can view the camps and reviews without signing up or logging in.
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v14 or higher recommended)
-- [npm](https://www.npmjs.com/) (included with Node.js)
-- [MongoDB](https://www.mongodb.com/) (local installation or cloud instance)
+>The user will have to login to edit the campground details or any comments.
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/campfinder.git
+>The user can only edit/delete the campgrounds and comments that they have added.
 
-### Running the Application
-1. Navigate to the project folder:
-    ```bash
-    cd campfinder
+>All the data will pe persistent and is stored in the awazon cloud.
 
-2. Install dependencies:
-    ```bash
-    npm install
+## Technologies Used:
 
-3. Seeding database
-    ```bash
-    node seeds/index.js
+>HTML5 - markup language for creating web pages and web applications
 
-4. Starting app
-    ```bash
-    nodemon app.js
+>CSS3 - used for describing the presentation of a document written in a markup language
 
-Open your browser and visit http://localhost:3000/campgrounds (or your configured port).
+>Bootstrap - free and open-source front-end web framework for designing websites and web applications quickly
+
+>jQuery - cross-platform JavaScript library designed to simplify the client-side scripting of HTML
+
+>DOM Manipulation - is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document
+
+>Node.js - pen-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side
+
+>Express.js - for building web applications and APIs and connecting middleware
+
+>REST - REST (REpresentational State Transfer) is an architectural style for developing web services
+
+>MongoDB - open-source cross-platform document-oriented NoSQL database program to store details like users info, campgrounds info and comments
+
+>PassportJS - authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application
+
+>Data Associations - associating user data with the respective campgrounds and comments using reference method
+
+>Heroku - cloud platform as a service used as a web application deployment model
+
+>AWS - mongodb is hosted on amazon ec2 instance
+
+## Screenshots
+>HomePage
+![home](https://user-images.githubusercontent.com/51289274/113733448-1a3ac300-9718-11eb-9fc7-defb8d2cd9c1.png)
+
+>All Campgrounds
+![All campgrounds](https://user-images.githubusercontent.com/51289274/113733438-173fd280-9718-11eb-8a0d-8e13f1ab3d45.png)
+
+->Single Campground ShowPage
+![showPage](https://user-images.githubusercontent.com/51289274/113733465-1e66e080-9718-11eb-9ffe-8b047640942a.png)
+
+->Login & Register page
+![login,register](https://user-images.githubusercontent.com/51289274/113734300-d8f6e300-9718-11eb-801e-5cb4698a1560.png)
+
+
+
